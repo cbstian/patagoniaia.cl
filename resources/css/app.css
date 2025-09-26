@@ -1,0 +1,20 @@
+/* Custom CSS for PatagoniaIA */
+/* Bootstrap is imported via JavaScript in bootstrap-app.js */
+/* Font definitions are handled in fonts.less */
+
+body {
+    font-family: var(--font-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
+/* Custom styles can be added here */

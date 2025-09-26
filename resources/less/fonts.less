@@ -1,0 +1,209 @@
+// Instrument Sans Font Family - Custom Font Loading
+// These fonts are loaded locally from /resources/fonts/
+
+// Instrument Sans Regular (400)
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/0560c261627a3561-s.p.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Instrument Sans Medium (500)
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/0f9fe9e973978b55-s.p.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Instrument Sans SemiBold (600)
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/40753d62591958a5-s.p.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Instrument Sans Bold (700)
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/544d12a7997a9605-s.p.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Instrument Sans ExtraBold (800)
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/a112078eb38aa119-s.p.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Font Variables and Utility Classes
+:root {
+    --font-primary: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-fallback: ui-sans-serif, system-ui, sans-serif;
+}
+
+// Utility classes for different font weights
+.font-300 {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+// Font family utility classes
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.font-instrument {
+    font-family: 'Instrument Sans', var(--font-fallback);
+}
+
+// Performance optimizations
+.font-optimize {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+// Responsive font sizing mixins
+.responsive-text() {
+    @media (max-width: 576px) {
+        font-size: 0.9em;
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        font-size: 1em;
+    }
+
+    @media (min-width: 769px) {
+        font-size: 1.1em;
+    }
+}
+
+// Typography scale based on Instrument Sans
+.heading-xl {
+    font-family: var(--font-primary);
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.heading-lg {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.heading-md {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.3;
+}
+
+.heading-sm {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.body-lg {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.body-md {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.body-sm {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+// Caption and small text
+.caption {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+}
+
+
+.font-size-26 {
+    font-size: 26px !important;
+}
+
+.font-size-24 {
+    font-size: 24px !important;
+}
+
+.font-size-22 {
+    font-size: 22px !important;
+}
+
+.font-size-20 {
+    font-size: 20px !important;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.font-size-10 {
+    font-size: 10px !important;
+}
