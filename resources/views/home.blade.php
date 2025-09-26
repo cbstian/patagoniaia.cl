@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title_1','PatagoniaIA')
+@section('title_1','Patagonia IA')
 @section('title_2','Inicio')
 
 @section('class-main', 'container-fluid p-0 patagonia-container')
