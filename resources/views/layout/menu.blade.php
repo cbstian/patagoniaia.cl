@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark py-3">
         <div class="container-fluid">
             <a class="navbar-brand font-bold text-patagonia-primary heading-sm" href="{{ route('home') }}">
-                <img src="{{ asset('images/logo-sup-3.png') }}" class="img-fluid" style="max-height: 40px;" alt="">
+                <img src="{{ asset('images/logo-patagonia-ia.png') }}" class="img-fluid" style="max-height: 40px;" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

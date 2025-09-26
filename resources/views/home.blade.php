@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title_1','Patagonia IA')
-@section('title_2','Inicio')
+@section('title_2','La frontera sur de la Inteligencia Artificial')
 
 @section('class-main', 'container-fluid p-0 patagonia-container')
 
