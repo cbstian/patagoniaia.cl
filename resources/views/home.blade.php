@@ -90,6 +90,34 @@
     </div>
 </div>
 
+<div class="container-fluid bg-color-secondary pt-5">
+    <div class="row justify-content-center pt-4">
+        <div class="col-md-4 text-center pb-5">
+            <img src="{{ asset('images/logo-patagoniaia.jpg') }}" class="img-fluid mb-4" style="max-height: 50px;">
+            <h1 class="text-white mb-4">
+                Riqueza cultural e innovación tecnológica
+            </h1>
+            <a href="https://plataforma.patagoniaia.cl/entrar" class="btn btn-primary me-3" style="width:150px">Acceso</a>
+            <a href="https://plataforma.patagoniaia.cl/" class="btn btn-secondary" style="width:150px">Crear cuenta</a>
+        </div>
+        <div class="col-md-10 text-center pt-5">
+            <img src="{{ asset('images/fondo-logo-banner-2.png') }}" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-5">
+    <div class="row justify-content-center pt-4">
+        <div class="col-md-4 text-center pb-5">
+            <p class="mb-0">¿Tienes alguna pregunta?</p>
+            <h1 class="mb-4">
+                Preguntas frecuentes
+            </h1>
+
+        </div>
+    </div>
+</div>
+
 @endsection
 
 @section('css')

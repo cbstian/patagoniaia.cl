@@ -27,7 +27,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <a href="https://plataforma.patagoniaia.cl/entrar" class="btn btn-primary me-3">Acceso</a>
-                    <a href="https://plataforma.patagoniaia.cl/" class="btn btn-secondary">Crear una cuenta</a>
+                    <a href="https://plataforma.patagoniaia.cl/" class="btn btn-secondary">Crear cuenta</a>
                 </form>
             </div>
         </div>
