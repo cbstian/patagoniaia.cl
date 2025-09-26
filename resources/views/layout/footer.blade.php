@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 mb-4">
-                <img src="{{ asset('images/logo-sup-3.png') }}" class="img-fluid mb-4" style="max-height: 30px;" alt="">
+                <img src="{{ asset('images/logo-patagonia-ia.png') }}" class="img-fluid mb-4" style="max-height: 30px;" alt="">
                 <p class="text-white mb-0">
                     Inteligencia Artificial
                 </p>
