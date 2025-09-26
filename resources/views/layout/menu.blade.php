@@ -11,7 +11,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link body-md text-white {{ Request::is('/') ? 'active text-patagonia-primary font-semibold' : '' }}" href="{{ route('home') }}">
-                            Iniciativa Amazon IA
+                            Iniciativa Patagonia IA
                         </a>
                     </li>
                     <li class="nav-item">
