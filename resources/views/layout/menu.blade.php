@@ -10,17 +10,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link body-md text-white {{ Request::is('/') ? 'active text-patagonia-primary font-semibold' : '' }}" href="{{ route('home') }}">
+                        <a class="nav-link body-md text-white {{ Request::is('/') ? 'active text-patagonia-primary font-semibold' : '' }}" href="{{ route('initiative') }}">
                             Iniciativa Patagonia IA
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link body-md text-white {{ Request::is('about*') ? 'active text-patagonia-primary font-semibold' : '' }}" href="#about">
+                        <a class="nav-link body-md text-white {{ Request::is('about*') ? 'active text-patagonia-primary font-semibold' : '' }}" href="#como-utilizar">
                             Cómo utilizar
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link body-md text-white {{ Request::is('services*') ? 'active text-patagonia-primary font-semibold' : '' }}" href="#services">
+                        <a class="nav-link body-md text-white {{ Request::is('services*') ? 'active text-patagonia-primary font-semibold' : '' }}" href="#el-proyecto">
                             El proyecto
                         </a>
                     </li>

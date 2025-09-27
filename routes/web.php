@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/font-demo', function () {
-    return view('font-demo');
-})->name('font-demo');
+Route::get('/iniciativa', function () {
+    return view('initiative');
+})->name('initiative');

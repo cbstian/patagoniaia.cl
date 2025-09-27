@@ -15,22 +15,22 @@
                         <h6 class="heading-sm text-white font-semibold mb-3">Explore</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <a href="{{ route('home') }}" class="text-light text-decoration-none hover-text-primary">
+                                <a href="{{ route('initiative') }}" class="text-light text-decoration-none hover-text-primary">
                                     Iniciativa patagonIA
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a href="#" class="text-light text-decoration-none hover-text-primary">
+                                <a href="#como-utilizar" class="text-light text-decoration-none hover-text-primary">
                                     Como Utilizar
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a href="#" class="text-light text-decoration-none hover-text-primary">
+                                <a href="#el-proyecto" class="text-light text-decoration-none hover-text-primary">
                                     El proyecto
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a href="#" class="text-light text-decoration-none hover-text-primary">
+                                <a href="#preguntas-frecuentes" class="text-light text-decoration-none hover-text-primary">
                                     Preguntas frecuentes
                                 </a>
                             </li>

@@ -10,9 +10,12 @@
     }
 }
 
-.banner-home {
+.padding-banner-home {
     padding-top: 150px;
     padding-bottom: 150px;
+}
+
+.banner-home {
     background-image: url(../images/fondo-logo-banner.png);
     background-size: contain;
     background-position: right;
@@ -76,8 +79,7 @@
 .accordion-item {
     background-color: transparent;
     border: none;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 8px !important;
     overflow: hidden;
 }
@@ -133,5 +135,39 @@
     b {
         color: @secondary;
         font-weight: 800;
+    }
+}
+
+.carousel-indicators {
+
+    margin-bottom: -3rem;
+
+    [data-bs-target] {
+        background-color: @secondary;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+
+        &.active {
+            background-color: @primary;
+            border-color: @primary;
+        }
+
+        &:hover {
+            background-color: rgba(0, 255, 248, 0.7);
+        }
+    }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.border-end-responsive {
+    border-right: 1px solid #fff;
+
+    @media screen and (max-width: 768px) {
+        border-right: 0px solid #fff;
     }
 }
