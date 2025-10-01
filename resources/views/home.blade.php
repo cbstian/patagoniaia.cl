@@ -98,7 +98,6 @@
                 Riqueza cultural e innovación tecnológica
             </h1>
             <a href="https://plataforma.patagoniaia.cl/entrar" class="btn btn-primary me-3" style="width:150px">Acceso</a>
-            <a href="https://plataforma.patagoniaia.cl/" class="btn btn-secondary" style="width:150px">Crear cuenta</a>
         </div>
         <div class="col-md-10 text-center pt-5">
             <img src="{{ asset('images/fondo-logo-banner-2.png') }}" class="img-fluid">
