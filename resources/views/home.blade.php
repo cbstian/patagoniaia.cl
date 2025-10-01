@@ -120,7 +120,7 @@
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
                             <div class="col-md-5 justify-content-center justify-content-lg-end ps-0 pe-0 pe-lg-4 d-flex align-items-center">
-                                <img src="{{ asset('images/carrusel-patagonia-1.png') }}" class="img-fluid">
+                                <img src="{{ asset('images/carrusel-patagonia-1-v2.png') }}" class="img-fluid rounded-5">
                             </div>
                             <div class="col-md-5 d-flex align-items-center pt-lg-0 pt-4">
                                 <div>
