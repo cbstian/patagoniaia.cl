@@ -98,6 +98,7 @@
                 Riqueza cultural e innovación tecnológica
             </h1>
             <a href="https://plataforma.patagoniaia.cl/entrar" class="btn btn-primary me-3" style="width:150px">Acceso</a>
+            <a href="https://plataforma.patagoniaia.cl/" class="btn btn-secondary" style="width:150px">Crear cuenta</a>
         </div>
         <div class="col-md-10 text-center pt-5">
             <img src="{{ asset('images/fondo-logo-banner-2.png') }}" class="img-fluid">
@@ -139,7 +140,7 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center">
                             <div class="col-md-5 justify-content-center justify-content-lg-end ps-0 pe-0 pe-lg-4 d-flex align-items-center">
-                                <img src="{{ asset('images/carrusel-patagonia-2.png') }}" class="img-fluid">
+                                <img src="{{ asset('images/carrusel-patagonia-2.jpg') }}" class="img-fluid rounded-5">
                             </div>
                             <div class="col-md-5 d-flex align-items-center pt-lg-0 pt-4">
                                 <div>
@@ -169,7 +170,7 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center">
                             <div class="col-md-5 justify-content-center justify-content-lg-end ps-0 pe-0 pe-lg-4 d-flex align-items-center">
-                                <img src="{{ asset('images/carrusel-patagonia-3.png') }}" class="img-fluid">
+                                <img src="{{ asset('images/carrusel-patagonia-3.jpg') }}" class="img-fluid rounded-5">
                             </div>
                             <div class="col-md-5 d-flex align-items-center pt-lg-0 pt-4">
                                 <div>
@@ -201,7 +202,7 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center">
                             <div class="col-md-5 justify-content-center justify-content-lg-end ps-0 pe-0 pe-lg-4 d-flex align-items-center">
-                                <img src="{{ asset('images/carrusel-patagonia-4.png') }}" class="img-fluid">
+                                <img src="{{ asset('images/carrusel-patagonia-4.jpg') }}" class="img-fluid rounded-5">
                             </div>
                             <div class="col-md-5 d-flex align-items-center pt-lg-0 pt-4">
                                 <div>
@@ -230,7 +231,7 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center">
                             <div class="col-md-5 justify-content-center justify-content-lg-end ps-0 pe-0 pe-lg-4 d-flex align-items-center">
-                                <img src="{{ asset('images/carrusel-patagonia-5.png') }}" class="img-fluid">
+                                <img src="{{ asset('images/carrusel-patagonia-5.jpg') }}" class="img-fluid rounded-5">
                             </div>
                             <div class="col-md-5 d-flex align-items-center pt-lg-0 pt-4">
                                 <div>
@@ -303,16 +304,12 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    <b>Pagatonia IA</b> es el primer modelo de lenguaje conversacional robusto de gran tamaño (LLM) en portugués brasileño, desarrollado por WideLabs, una empresa brasileña de inteligencia artificial, en asociación con Oracle y NVIDIA.
+                                    <b>Pagatonia IA</b> es el primer modelo de lenguaje conversacional robusto de gran tamaño (LLM) español chileno, desarrollado por el Instituto Sistemas Complejos de Ingeniería junto WideLabs, en asociación con Oracle y NVIDIA.
                                 </p>
                                 <p>
-                                    Las principales características de Pagatonia IA incluyen la preservación del desempeño en métricas tradicionales, alto desempeño en métricas desarrolladas para la reserva cultural de Brasil, competitividad, accesibilidad y escalabilidad debido a su valor en reales.
-                                </p>
-                                <p>
+                                    Las principales características de <b>Pagatonia IA</b> incluyen la preservación del desempeño en métricas tradicionales, alto desempeño en métricas desarrolladas para la reserva cultural de Chile, competitividad, accesibilidad y escalabilidad debido a su valor en reales.
                                     Todo está construido con el máximo respeto a la legislación moderna vigente en el país y con respeto a los datos y la privacidad de sus usuarios.
-                                </p>
-                                <p>
-                                    <b>Pagatonia IA</b> se alinea con el propósito de WideLabs de humanizar la inteligencia artificial, creando tecnologías disruptivas capaces de abordar desafíos complejos y tener un impacto verdaderamente positivo en la vida de las personas y las empresas.
+                                    <b>Pagatonia IA</b> se alinea con el propósito del Instituto Sistemas Complejos de Ingeniería de humanizar la inteligencia artificial, creando tecnologías disruptivas capaces de abordar desafíos complejos y tener un impacto verdaderamente positivo en la vida de las personas y las empresas.
                                 </p>
                             </div>
                         </div>
@@ -321,17 +318,17 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                ¿Cuáles son los principales objetivos de Pagatonia IA?
+                                Cuáles son los principales objetivos de Patagonia IA?
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>Los principales objetivos de Patagonia IA son:</p>
                                 <p><b>Humanizar la Inteligencia Artificial:</b> crear tecnologías que puedan abordar desafíos complejos y tener un impacto positivo en la vida de las personas y las empresas.</p>
-                                <p><b>Preservar la cultura brasileña:</b> Desarrollar un modelo que comprenda y respete la cultura, el idioma y la historia brasileñas.</p>
+                                <p><b>Preservar la cultura chilena:</b> Desarrollar un modelo que comprenda y respete la cultura, el idioma y la historia de nuestro país.</p>
                                 <p><b>Fomentar la Autonomía Tecnológica:</b> Reducir la dependencia de plataformas extranjeras, promoviendo la autonomía tecnológica y fortaleciendo el ecosistema de innovación local.</p>
                                 <p><b>Estimular la industria y la ciencia nacionales:</b> Trabajar en conjunto con la industria, las universidades y los centros de investigación para generar productos y servicios innovadores.</p>
-                                <p><b>Accesibilidad y Escalabilidad:</b> Hacer que la tecnología sea accesible y escalable para los brasileños, con costos en reales.</p>
+                                <p><b>Accesibilidad y Escalabilidad:</b> Hacer que la tecnología sea accesible y escalable para los chilenos, con costos en pesos chilenos.</p>
                             </div>
                         </div>
                     </div>
@@ -347,7 +344,7 @@
                                 <p>Patagonia IA se puede aplicar en varias áreas, entre ellas:</p>
                                 <p><b>Legal:</b> Asistencia en el análisis de documentos legales y la automatización de procesos legales.</p>
                                 <p><b>Educación:</b> Facilitar el aprendizaje y la creación de contenidos educativos.</p>
-                                <p><b>Cultura:</b> Preservar y promover la cultura brasileña a través de contenidos generados en portugués.</p>
+                                <p><b>Cultura:</b> Preservar y promover la cultura chilena a través de contenidos generados en español chileno.</p>
                                 <p><b>Salud:</b> Apoyo al análisis de datos médicos y a la automatización de procesos de atención.</p>
                                 <p><b>Seguridad:</b> Mejorar el análisis de datos y la toma de decisiones en seguridad pública.</p>
                                 <p><b>Marketing y ventas:</b> Ayudamos a crear campañas publicitarias y analizar datos del mercado.</p>
@@ -363,11 +360,11 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Patagonia IA se desarrolló con un enfoque especial en la seguridad y la privacidad, cumpliendo con las principales regulaciones globales, incluida la Ley General de Protección de Datos (LGPD) de Brasil. Las medidas de seguridad incluyen:</p>
+                                <p>Patagonia IA se desarrolló con un enfoque especial en la seguridad y la privacidad, cumpliendo con las principales regulaciones globales, incluida la Política Nacional de Inteligencia Artificial, que comenzó a ser trabaja desde el 2021. (https://www.minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/)</p>
+                                <p>Las medidas de seguridad incluyen:</p>
                                 <p><b>Asociación con Oracle:</b> Uso de centros de datos de seguridad de nivel IV, que ofrecen mantenimiento simultáneo y tolerancia a fallos, así como Internet por cable y escalabilidad instantánea.</p>
                                 <p><b>Protección de datos:</b> No utilizamos datos de usuarios ni cookies para entrenar máquinas, garantizando la privacidad de los datos.</p>
-                                <p><b>Infraestructura local:</b> Los datos brasileños se procesan localmente, sin necesidad de pasar por proveedores extranjeros, lo que es estratégico para proyectos relacionados con el gobierno.</p>
-                                <p><b>Cumplimiento de la LGPD:</b> Patagonia IA está diseñado para cumplir con la LGPD, lo que garantiza la protección de los datos del usuario.</p>
+                                <p><b>Infraestructura local:</b> Los datos se procesan localmente, sin necesidad de pasar por proveedores extranjeros, lo que es estratégico para proyectos relacionados con el gobierno.</p>
                                 <p><b>Redundancia Física:</b> Centros de datos con redundancia física para garantizar la continuidad del servicio en caso de fallas.</p>
                             </div>
                         </div>

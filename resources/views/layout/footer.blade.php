@@ -1,7 +1,7 @@
 <footer class="py-5 bg-color-secondary px-4 px-lg-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 mb-4">
+            <div class="col-md-4 col-lg-6 col-xl-7 col-xxl-8 mb-4">
                 <img src="{{ asset('images/logo-patagonia-ia.png') }}" class="img-fluid mb-4" style="max-height: 30px;" alt="">
                 <p class="text-white mb-0">
                     Inteligencia Artificial
@@ -9,7 +9,7 @@
                 <a href="mailto:contacto@patagoniaia.cl" class="text-light text-decoration-none hover-text-primary">contacto@patagoniaia.cl</a><br>
                 <small class="text-white">Derechos de autor © 2025</small>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4 mb-4">
                 <div class="row">
                     <div class="col-md-4">
                         <h6 class="heading-sm text-white font-semibold mb-3">Explore</h6>
