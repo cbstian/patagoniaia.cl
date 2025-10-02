@@ -417,7 +417,8 @@
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Sí, su privacidad es nuestra prioridad. Patagonia IA cumple estrictamente con las normas de seguridad legal brasileñas y las mejores prácticas regulatorias internacionales. Sus datos están protegidos, no se utilizan para el entrenamiento de modelos, no se divulgan y pueden eliminarse permanentemente en cualquier momento con un simple clic.</p>
+                                <p>Sí, se respeta completamente, para <b>Pagatonia IA</b> su privacidad es nuestra prioridad. Por eso, cumplimos estrictamente con las normas de seguridad y las mejores prácticas regulatorias internacionales.</p>
+                                <p>Sus datos están protegidos, no se utilizan para el entrenamiento de modelos, no se divulgan y pueden eliminarse permanentemente en cualquier momento con un simple clic</p>
                             </div>
                         </div>
                     </div>
